@@ -1,0 +1,45 @@
+/*p {
+    color: red;
+}
+
+h1 {
+    color: yellow;
+    width: 10px;
+}
+
+ul {
+    color: violet;
+}*/
+
+body {
+    background-color: lightblue;
+}
+
+header {
+    width: 1000px;
+    font-weight: bold;
+    margin: 10px 5px 10px 50px;
+    padding: 10px 5px 15px 20px;
+    border: 1px solid black;
+}
+
+nav {
+    width: 1000px;
+    margin: 10px 5px 10px 50px;
+    padding: 10px 5px 15px 20px;
+    border: 1px solid red;
+}
+
+section {
+    width: 400px;
+    margin: 10px 5px 10px 1px;
+    padding: 10px 5px 15px 1px;
+    border: 1px solid yellow;
+}
+
+footer {
+    width: 1000px;
+    margin: 10px 5px 10px 50px;
+    padding: 10px 5px 15px 50px;
+    border: 1px solid violet;
+}
