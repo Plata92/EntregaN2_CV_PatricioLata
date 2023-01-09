@@ -13,10 +13,24 @@
     <div class="container">
         <div class="row">
             <div class="col">
-                Columna
+                <video width="250" height="240" controls>
+                    <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+                    <source src="https://www.w3schools.com/html/mov_bbb.ogg" type="video/ogg">
+                    Your browser does not support the video tag.
+                </video>
             </div>
             <div class="col">
-                Columna
+                <form>
+                    <label>Nombre</label>
+                    <input type="text" name="nombre" placeholder="Ingrese su Nombre" />
+                    <label>Apellido</label>
+                    <input type="text" name="apellido" placeholder="Ingrese su Apellido" />
+                    <label>Email</label>
+                    <input type="email" name="email" placeholder="Ingrese su Email"/>
+                    <label>Password</label>
+                    <input type="password" name="password" />
+                    <input type="submit" value="Enviar"/>
+                </form>
             </div>
             <div class="col">
                 Columna
