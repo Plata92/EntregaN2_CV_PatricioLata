@@ -1,14 +1,20 @@
 .fondo {
-    background-color: aquamarine;
+    background-color: salmon;
 }
 
 .actividades {
-    color: red;
-    font-weight: 400px;
+    color: blue;
+    font-weight: bold;
 }
 
 .habilidades {
-    color: violet;
-    font-weight: 400px;
+    color: aquamarine;
+    font-weight: bold;
 }
+
+.configuracionTitulo{
+    font-weight: bold;
+    margin: 10px 5px 10px 5px;
+}
+
 
