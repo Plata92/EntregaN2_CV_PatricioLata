@@ -12,12 +12,13 @@
 <body>
 
     <!--agregar estilos-->
-    <div class="fondo">
+    <div id="fondo" class="fondo">
         <div class="container">
             <div class="row">
                 <div class="col col-md-7">
                     <header>
-                        <h1 class="configuracionTitulo">Rick Ramirez</h1>
+                        <h1 id="nombre" class="configuracionTitulo">Rick Ramirez</h1>
+                        <button class="configuracionTitulo" onclick='document.getElementById("nombre").innerHTML="Rick Ruben Ramirez"'>Modificar</button>
 
                         <ul>
                             <li> Fecha de Nacimiento: 5/1/1994</li>
@@ -64,10 +65,12 @@
                     </div>
             </div>
                 <div class="col col-md-5">
-                    <img src="ImagenCV.jpg" class="img-fluid" alt="La imagen no cargo correctamente" height="300px" width="300px">
+                    <img id="myImage" src="ImagenCV.jpg" class="img-fluid" alt="La imagen no cargo correctamente" height="300px" width="300px">
+                    <button onclick="document.getElementById('myImage').src='ImagenCV2.jpg'">Cambiar Imagen</button>
                 </div>
         
-        </div>
+            </div>
+
     </div>
 </body>
 </html>
