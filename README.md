@@ -1,5 +1,3 @@
-# EntregaN1_CV_PatricioLata
-
 <!DOCTYPE html>
 <html lang="es">
 <head>
