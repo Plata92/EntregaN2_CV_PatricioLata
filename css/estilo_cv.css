@@ -1,5 +1,7 @@
 .fondo {
-    background-color: salmon;
+    background: #5614B0;  
+    background: -webkit-linear-gradient(to right, #DBD65C, #5614B0); 
+    background: linear-gradient(to right, #DBD65C, #5614B0); 
 }
 
 .actividades {
@@ -23,4 +25,3 @@
 #demo {
     background-color: salmon;
 }
-
