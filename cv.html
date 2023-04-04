@@ -14,10 +14,13 @@
         <div class="container">
             <div class="row">
                 <div class="col col-md-7">
+                    <header id="nombre" aling="center" class="configuracionTitulo"> CURRICULUM VITAE RICK RAMIREZ</header>
+                        <li><svg width="1rem" height="1rem"xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" with ></svg><a id="datos" href="#datosP">Datos Personales</a></li>
+                        <li><svg width="1rem" height="1rem"xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"></svg><a id="actividadAcademica" href="#actAcad">Actividad Academica</a></li>
+                        <li><svg width="1rem" height="1rem"xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"></svg><a id="exp" href="#ExperienciaLaboral">Experiencia Laboral</a></li>
+                        <li><svg width="1rem" height="1rem"xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"></svg><a id="habilidades" href="#habi">Habilidades</a></li>
                     <header>
-                        <h1 id="nombre" class="configuracionTitulo">Rick Ramirez</h1>
-                        <button type="button" id="cambiarnombre">Modificar</button>
-
+                    <section id="datosP" style="display: none;"><h3>Datos Personales:</h3>
                         <ul>
                             <li> Fecha de Nacimiento: 5/1/1994</li>
                             <li> Nacionalidad: Argentina</li>
@@ -26,14 +29,12 @@
                             <li> Edad: 30</li>
                             <li> Estado Civil: Soltero</li>
                             <li> telefono:  (809) 483-5414</li>
+
+                            <p>Soy una persona responsable, que aprende rapido, le gusta constantemente estar aprendiendo, no me gusta estancarme.</p>
                         </ul>
                     </header>
                     <div class="col-12 col-md-12">
-                        <nav>
-                            <p>Soy una persona responsable, que aprende rapido, le gusta constantemente estar aprendiendo, no me gusta estancarme.</p>
-                        </nav>
-        
-                        <section>
+                        <section id="actAcad" style="display: none;">
                             <h2 class="actividades">Actividad Academica</h2> 
                             <h3> <li> Secundario (2007 - 2009) </li></h3>
                             <p>Bachiller en Ciencias Naturales</p>
@@ -43,6 +44,7 @@
                         </section>
         
                         <article>
+                            <section id="ExperienciaLaboral" style="display: none;">
                             <h2 class="actividades">Experiencia</h2>
                             <h3> <li> Empresa Entretenimiento (Enero 2010 - Febrero 2011)</li></h3>
                             <p>Desempeñe la tarea de Sonidista en los shows que organizaba el parque</p>
@@ -52,21 +54,23 @@
         
                             <h3> <li> Empresa Sistemas (Julio 2013 - Actual)</li></h3>
                             <p>Desempeño tareas de soporte tecnico, tareas administrativas y empezando a desarrollar</p>
+                        </section>
                         </article>
         
                         <footer>
+                            <section id="habi" style="display: none;">
                             <h3 class="habilidades">Habilidades</h3>
                             <p> Mis habilidades son: aprendo rapido, me gusta siempre adquirir nuevos conocimientos, soy muy responsable con mi trabajo 
                                 tengo ingles basico, experiencia con c++, manejo de office.
                             </p>
+                        </section>
                         </footer>
                         
                         <button type="button" id="btn_color">Cambiar Color Fondo</button>
                     </div>
             </div>
                 <div class="col col-md-5">
-                    <img id="myImage" src="ImagenCV.jpg" class="img-fluid" alt="La imagen no cargo correctamente" height="300px" width="300px">
-                    <button id="cambiarImagen">Cambiar Imagen</button>
+                    <img id="myImage" src="ImagenCV.jpg" class="img-fluid" aling="center" alt="La imagen no cargo correctamente" height="300px" width="300px">
                     
                 </div>
         

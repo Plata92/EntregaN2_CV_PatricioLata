@@ -1,13 +1,19 @@
-document.getElementById('cambiarnombre').onclick = function () {
-    console.log("hola mundo");
-    document.getElementById("nombre").innerHTML = "Esteban Marquisio";
-}
-
-document.getElementById('cambiarImagen').onclick = function () {
-    console.log("probando funcion");
-    document.getElementById("myImage").src="ImagenCV2.jpg";
-}
-
 document.getElementById('btn_color').onclick = function () {
-    document.getElementById("fondo").style.background = "#FF0000";
+    document.getElementById("fondo").style.background = "#33FF7D";
 }
+
+document.getElementById('datos').addEventListener ("click", function (){
+    document.getElementById("datosP").style.display ="block" ;
+});
+
+document.getElementById('exp').addEventListener ("click", function (){
+    document.getElementById("ExperienciaLaboral").style.display ="block" ;
+});
+
+document.getElementById('actividadAcademica').addEventListener ("click", function (){
+    document.getElementById("actAcad").style.display ="block" ;
+});
+
+document.getElementById('habilidades').addEventListener ("click", function (){
+    document.getElementById("habi").style.display ="block" ;
+});
