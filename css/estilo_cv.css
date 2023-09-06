@@ -24,6 +24,13 @@
     color: red;
 }
 
+.configuracionTitulo2{
+    font-weight: bold;
+    margin: 10px 5px 10px 5px;
+    text-align: center;
+    font-size: xx-large;
+    color: red;
+}
 #demo {
     background-color: salmon;
 }
